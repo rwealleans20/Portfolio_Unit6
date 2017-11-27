@@ -7,19 +7,47 @@
 </head>
 <body>
   <header>
-    <img id="profile" src="images/scripted_logo_orange.png">
-    <h1>ScriptEd's Porfolio</h1>
+    <img id="profile" src="images/ryan-photo-cropped.jpg">
+    <h1>Ryan Wealleans</h1>
+    <h1>Portfolio</h1>
     <ul>
       <li><a class="nav" href="">Home</a></li>
       <li><a class="nav" href="">About</a></li>
       <li><a class="nav" href="">Contact</a></li>
     </ul>
   </header>
-  <div class="project">
-    <h2 class="project-title"> <a href="">Project #1</a></h2>
-    <p>This project is something I made in October. It does...</p>
-    <button>Like</button>
-    <p id="like"></p>
+  <center>
+  <div class="divProject">
+    <h2 class="project-title"> <a href="">Example Project #1</a></h2>
+    <p>Example Project</p>
+    <br />
+    <img class="previewProject" src="images/Work_In_Progress.jpg">
+  </div>
+  </center>
+  
+  <center>
+  <div class="divAboutMe">
+    <h1>About me</h1>
+    <p>I design quality websites using HTML, CSS with a touch of JavaScript</p>
   </div>
 
+  <div class="divContact">
+    <h1 class="h1Contact">Contact Me</h1>
+    <form action="/action_page.php">
+
+    <label for="fname">Full name</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Your full name..">
+    
+    <label for="contact">E-Mail Address</label>
+    <input type="text" id="emailAddress" name="emailAddress" placeholder="example@example.com">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+  </div>
+  </center>
+  
 </body>
